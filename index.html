@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho_titulo">Verificador de Idade</h1>
+    </header>
+
+    <section class="secao">
+        <form>
+            <span class="form_nascimento">Ano de Nascimento:</span>
+            <input class="form_input-nascimento" type="number" name="ano" id="ano" placeholder="exemplo: 1988">
+
+            <span class="form_sexo">Sexo:</span>
+            <input type="radio" name="sexo" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">Feminino</label>
+
+            <input class="form_botao" type="button" value="Verificar" onclick="verificar()">
+        </form>
+
+        <div id="resposta">
+            <h3>Preencha os dados acima para ver o resultado!</h3>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h4>&copy; Todos os Direitos Reservados</h4>
+        <a class="rodape_link" href="https://helderruiz.github.io/Portfolio/" target="_blank"><span class="rodape_portfolio">Portfólio: </span>Helder Ruiz Marcelino</a>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+form {
+    position: relative;
+}
+
+.form_input-nascimento {
+    background: #ccc;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: .7rem;
+    width: 43%;
+}
+
+.form_input-nascimento::placeholder {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+    text-align: center;
+}
+
+.form_botao {
+    color: #fff;
+    background: #1414cb;
+    border-radius: 5px;
+    position: absolute;
+    top: 85px;
+    left: 5px;
+}
+
+#resposta, h3 {
+    font-size: .69rem;
+    letter-spacing: .5px;
+    margin-top: 1rem;
+}
