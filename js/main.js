@@ -18,38 +18,38 @@ function verificar() {
             genero = 'Homem'
             if (idade >=0 && idade < 5) {
                 //bebe
-                img.setAttribute('src', '../img/foto-bebe-homem.png')
+                img.setAttribute('src', 'foto-bebe-homem.png')
             } else if (idade < 13) {
                 //criança
-                img.setAttribute('src', '../img/foto-crianca-homem.png')
+                img.setAttribute('src', 'foto-crianca-homem.png')
             } else if (idade < 21) {
                 //jovem
-                img.setAttribute('src', '../img/foto-jovem-homem.png')
+                img.setAttribute('src', 'foto-jovem-homem.png')
             } else if (idade < 50) {
                 //Adulto
-                img.setAttribute('src', '../img/foto-homem-adulto.png')
+                img.setAttribute('src', 'foto-homem-adulto.png')
             } else {
                 //Idoso
-                img.setAttribute('src', '../img/foto-idoso-homem.png')
+                img.setAttribute('src', 'foto-idoso-homem.png')
             }
 
         }else if (sexo[1].checked) {
             genero = 'Mulher'
             if (idade >=0 && idade < 5) {
                 //bebe
-                img.setAttribute('src', '../img/foto-bebe-mulher.png')
+                img.setAttribute('src', 'foto-bebe-mulher.png')
             } else if (idade < 13) {
                 //criança
-                img.setAttribute('src', '../img/foto-crianca-mulher.png')
+                img.setAttribute('src', 'foto-crianca-mulher.png')
             } else if (idade < 21) {
                 //jovem
-                img.setAttribute('src', '../img/foto-jovem-mulher.png')
+                img.setAttribute('src', 'foto-jovem-mulher.png')
             } else if (idade < 50) {
                 //Adulto
-                img.setAttribute('src', '../img/foto-mulher-adulta.png')
+                img.setAttribute('src', 'foto-mulher-adulta.png')
             } else {
                 //Idoso
-                img.setAttribute('src', '../img/foto-idoso-mulher.png')
+                img.setAttribute('src', 'foto-idoso-mulher.png')
             }
         }
         resposta.style.color = 'red'
